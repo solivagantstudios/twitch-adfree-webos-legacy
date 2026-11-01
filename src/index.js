@@ -1,3 +1,5 @@
+import "core-js/stable";
+
 const twitchUrl = 'https://lg.tv.twitch.tv/';
 
 export function handleLaunch() {

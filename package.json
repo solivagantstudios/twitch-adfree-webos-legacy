@@ -25,7 +25,9 @@
   "homepage": "https://github.com/adamff-dev/twitch-adfree-webos#readme",
   "dependencies": {
     "@babel/runtime-corejs3": "^7.24.4",
+    "core-js": "^3.51.0",
     "core-js-pure": "^3.36.1",
+    "corejs": "^1.0.0",
     "regenerator-runtime": "^0.14.1",
     "tiny-sha256": "^1.0.2",
     "whatwg-fetch": "^3.6.20"
@@ -57,5 +59,11 @@
     "typescript": "^5.4.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
+  },
+  "allowScripts": {
+    "@webos-tools/cli@3.0.6": true,
+    "fsevents@2.3.3": true,
+    "core-js@3.51.0": true,
+    "core-js-pure@3.36.1": true
   }
 }
