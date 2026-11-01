@@ -10,7 +10,7 @@
   "largeIcon": "largeIcon.png",
   "iconColor": "#000000",
   "vendorExtension": {
-    "userAgent": "userAgent": "Mozilla/5.0 (Web0S; SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 WebAppManager",
+    "userAgent": "Mozilla/5.0 (Web0S; SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 WebAppManager",
     "allowCrossDomain": true
   },
   "enablePigScreenSaver": false,
