@@ -2,5 +2,22 @@
 <html>
   <head>
     <script src="index.js"></script>
+    <script>
+      (function() {
+        var modernUA = "Mozilla/5.0 (Web0S; SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 WebAppManager";
+        try {
+          Object.defineProperty(navigator, 'userAgent', {
+            get: function () { return modernUA; },
+            configurable: true
+          });
+          Object.defineProperty(navigator, 'appVersion', {
+            get: function () { return modernUA; },
+            configurable: true
+          });
+        } catch (e) {
+          console.warn("User-Agent spoof mislukt:", e);
+        }
+      })();
+    </script>  
   </head>
 </html>
